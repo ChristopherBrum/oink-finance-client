@@ -1,0 +1,11 @@
+import styles  from './Budgets.module.css';
+
+const Budgets = () => {
+	return (
+		<>
+			<h1>Budgets</h1>
+		</>
+	);
+};
+
+export default Budgets;

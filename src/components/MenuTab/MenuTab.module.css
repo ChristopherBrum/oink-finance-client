@@ -1,0 +1,13 @@
+#wrapper {
+	background-color: var(--green-mid);
+	color: var(--dark-main);
+	padding: 0.5rem 2.1rem;
+	border-radius: 0 0 4px 4px;
+	margin: 0 5px;
+	font-weight: 600;
+}
+
+#wrapper:hover {
+	background-color: var(--green-lite);
+	cursor: pointer;
+}

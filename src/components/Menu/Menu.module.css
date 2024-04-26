@@ -1,0 +1,41 @@
+#container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#amounts {
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem 1.5rem;
+	margin: 0 20px;
+	border-bottom: 1px solid var(--green-mid);
+}
+
+.amountsWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin: 0.5rem 1.5rem;
+}
+
+.spent {
+	color: var(--red-soft);
+}
+
+.available {
+	color: var(--blue-soft);
+}
+
+.dollars { 
+	margin-left: 10px; 
+	font-weight: 800;
+}
+
+.spentDollar { color: var(--red-soft); }
+.availableDollar { color: var(--blue-soft); }

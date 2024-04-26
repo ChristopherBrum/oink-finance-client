@@ -1,0 +1,27 @@
+#wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10px;
+	margin: 0 20px;
+	border-bottom: 1px solid var(--green-mid);
+	letter-spacing: 0.1rem;
+}
+
+#title {
+	font-size: 20px;
+}
+
+#navItems {
+	display: flex;
+	align-items: center;
+}
+
+.navButton {
+	margin-left: 20px;
+}
+
+#avatar {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}

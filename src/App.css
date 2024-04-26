@@ -1,0 +1,17 @@
+* {
+  --green-lite: #F1FFE7;
+  --green-mid: #A9FDAC;
+  --green-dark: #44CF6C;
+  --dark-main: #1d1d1e;
+  --red-main: #FF1A40;
+  --red-soft: #ff6bb3;
+  --blue-soft: #40a5f9; 
+  --yellow-soft: #fafc5e;
+}
+
+body {
+  background-color: var(--dark-main);
+  color: var(--green-mid);
+  font-family: "Reddit Mono", monospace;
+  font-size: 16px;
+}
