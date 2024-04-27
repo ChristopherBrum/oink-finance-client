@@ -1,8 +1,11 @@
 * {
   --green-lite: #F1FFE7;
   --green-mid: #A9FDAC;
-  --green-dark: #44CF6C;
+  /* --green-dark: #44CF6C; */
+  --green-dark: #537e5f;
+  --dark-deep: #0d0d0d;
   --dark-main: #1d1d1e;
+  --dark-mid: #2c2c2c;
   --red-main: #FF1A40;
   --red-soft: #ff6bb3;
   --blue-soft: #40a5f9; 
@@ -14,4 +17,5 @@ body {
   color: var(--green-mid);
   font-family: "Reddit Mono", monospace;
   font-size: 16px;
+  padding: 0 20px;
 }

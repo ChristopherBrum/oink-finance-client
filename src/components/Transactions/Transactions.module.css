@@ -1,0 +1,89 @@
+#container {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0;
+	line-height: 1.6;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+#container h1 {
+	margin: 40px 0;
+	text-align: center;
+}
+
+#searchForm {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 30px;
+	font-size: 0.9rem;
+}
+
+#searchForm input {
+	width: 180px;
+	margin-left: 5px;
+}
+
+.searchInputs {
+	display: flex;
+	flex-direction: column;
+}
+
+#searchForm div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+#dropdown {
+	height: 30px;
+	width: 160px;
+	margin-left: 5px;
+}
+
+.modernTable {
+	width: 90%;
+	margin: 30px auto 50px auto;
+	padding: 0 30px;
+	border-collapse: collapse;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.modernTable th,
+.modernTable td {
+	padding: 12px 15px;
+	text-align: left;
+}
+
+.modernTable th {
+	background-color: var(--green-dark);
+	color: white;
+	font-size: 16px;
+}
+
+.modernTable tbody tr:nth-child(even) {
+	background-color: var(--dark-mid);
+}
+
+.modernTable tbody tr:hover {
+	background-color: var(--dark-deep);
+}
+
+.modernTable td {
+	font-size: 0.9rem;
+}
+
+.modernTable tfoot tr {
+	background-color: #e5e5e5;
+	font-weight: bold;
+}
+
+.modernTable tfoot td {
+	font-size: 0.9rem;
+}
