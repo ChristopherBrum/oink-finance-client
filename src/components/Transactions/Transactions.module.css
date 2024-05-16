@@ -11,13 +11,15 @@
 }
 
 #container h1 {
-	margin: 40px 0;
+	margin: 40px 0 10px 0;
 	text-align: center;
 }
 
 #searchForm {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -30,15 +32,19 @@
 	margin-left: 5px;
 }
 
-.searchInputs {
-	display: flex;
-	flex-direction: column;
-}
-
 #searchForm div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;	
+}
+
+.searchInputs {
+	display: flex;	
+	flex-direction: row !important;
+}
+
+.filterItems {
+	margin: 10px;
 }
 
 #dropdown {

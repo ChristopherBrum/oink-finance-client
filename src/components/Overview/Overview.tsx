@@ -1,13 +1,13 @@
 // import styles  from './Overview.module.css';
-import { VictoryBar, VictoryChart, VictoryAxis, VictoryTheme } from "victory";
+// import { VictoryBar, VictoryChart, VictoryAxis, VictoryTheme } from "victory";
 
 const Overview = () => {
-  const data = [
-    { quarter: 1, earnings: 13000 },
-    { quarter: 2, earnings: 16500 },
-    { quarter: 3, earnings: 14250 },
-    { quarter: 4, earnings: 19000 },
-  ];
+  // const data = [
+  //   { quarter: 1, earnings: 13000 },
+  //   { quarter: 2, earnings: 16500 },
+  //   { quarter: 3, earnings: 14250 },
+  //   { quarter: 4, earnings: 19000 },
+  // ];
 
   return (
     <>
